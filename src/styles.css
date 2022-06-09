@@ -11,7 +11,6 @@
   }
 }
 
-
 @keyframes fadeINcon {
   from {
     opacity: 0;
@@ -32,10 +31,8 @@ body {
 }
 
 .clock-container {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100vh;
 }
 
 .footer-container {
@@ -50,6 +47,10 @@ body {
 }
 
 .clock {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   font-size: 5rem;
   transition: 0.2s;
   letter-spacing: 7px;
