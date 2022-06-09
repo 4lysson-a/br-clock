@@ -23,7 +23,6 @@
 }
 
 body {
-  overflow: hidden;
   background: #121212;
   opacity: 0;
   animation: fadeIN 0.5s 0.2s ease forwards;
@@ -32,7 +31,7 @@ body {
 
 .clock-container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 
 .footer-container {
